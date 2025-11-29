@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio De Eduarda Freitas</title>
+</head>
+<body>
+    <header>
+        <img src="img/eu.jpeg" alt="Minha foto" width="210px" height="290px" class="img">
+        <h1 id="portfolio">Portfólio</h1>
+        <h3 id="meu-nome">Eduarda Freitas</h3>
+      </header>
+      <br>
+      <main>
+        <div class="sobre-mim">
+            <p>Me chamo <strong>Maria Eduarda Freitas Santos de Jesus</strong>,sou estudante de Ciência da Computação<br>
+                 com foco em desenvolvimento web e Banco de Dados.<br>
+                 Estou sempre em busca de novos conhecimentos, desafios e oportunidades<br>
+                 que me permitam evoluir tecnicamente e ampliar minha visão sobre o mercado de tecnologia.<br>
+                 Tenho como objetivo me especializar cada vez mais, desenvolvendo competências sólidas<br>
+                 para criar soluções eficientes, inovadoras e de alta qualidade.<br>
+                 Busco construir uma carreira consistente, contribuindo com projetos que gerem impacto real<br> 
+                 e reflitam meu compromisso com excelência e evolução contínua. </p>
+        </div>
+        <br><br><br>
+        <section class="hard-skills">
+            <h2><button>hard skills</button></h2>
+            <ul class="skills">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>Java Script</li>
+            </ul>
+        </section>
+        <br><br><br><br><br>
+        <nav class="projetos">
+            <button><strong>Projetos</strong></button>
+            <br>
+            <br><br>
+            <a href="https://github.com/salsapunk/AppClimaBom" id="link-com-hover" class="cor">Aplicativo Clima BOM</a>
+            <ul class="centralizacao-lista"><li> É um aplicativo voltado para mostra a umidade do ar,<br>
+                 temperatura,permitir converção e entre outras funcionalidades.</li></ul>
+            <a href="https://github.com/madubr/Projeto-Podcast-Gerado-por-IAs" id="pod-cast" class="cast-cor">PodCast</a>
+            <ul class="centralizacao-lista"><li>Fiz esse projeto mais simples para treinar o que aprendi no Bootcamp,<br>
+                é um podcast feito por ferramentas de IA.</li></ul>
+        </nav>
+      </main>
+      <br><br><br><br>
+      <footer> 
+        <div class="rodape-conteudo">
+                  <div class="coluna-contato">
+                    <h3>Contato</h3>
+                    <p class="alterar-cor">E-mail: eduardabrfreitas@gmail.com</p>
+                  </div>
+                </div>
+        <nav class="redes-sociais">
+                <h3>Redes Profissionais</h3>
+                <a href="https://github.com/madubr" class="alterar-cor">GitHub</a>
+                <a href="https://www.linkedin.com/in/eduardafreitasbr/" class="alterar-cor">Linkedin</a>
+        </nav>
+                
+                <p class="direitos-autorais">
+                  &copy; 2025 Meu Portfólio Profissional. Todos os direitos reservados.
+                </p>   
+      </footer>
+
+</body>
+</html>
